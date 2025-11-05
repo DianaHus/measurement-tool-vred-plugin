@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MeasurementToolGUI</class>
+ <widget class="QWidget" name="MeasurementToolGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>322</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Measurement Tool</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">     font-size: 8pt; 
+     font-weight: bold; 
+     padding: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Measurement Tool Plugin</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="button_stampa_nomi">
+     <property name="text">
+      <string>print selected items' name</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="button_calcola_distanza">
+     <property name="text">
+      <string>calculate distance between two selected elements</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLCDNumber" name="lcdNumber"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="unit_comboBox">
+       <item>
+        <property name="text">
+         <string>mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>cm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>m</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>To add an annotation select a node, write what you want to show and click the button!</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="annotation_text_edit">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>write here the text of the annotation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_add_annotation">
+       <property name="text">
+        <string>add Annotation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_delete_annotations">
+       <property name="text">
+        <string>delete Annotation of selected nodes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_delete_all_annotations">
+       <property name="text">
+        <string>delete all Annotations</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
