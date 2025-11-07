@@ -8,9 +8,16 @@ The folder must be placed in the VRED plugins directory, usually located at:
 ```C:\Program Files\Autodesk\VRED-17.3\ScriptPlugins```
 
 If any modification is made to the code, the plugin must be reloaded in VRED for the changes to take effect. To do that:
-![Reload Script Plugins](documentation_images/image.png)
+
+<p style="text-align:center;">
+  <img src="documentation_images/image.png" alt="Reload Script Plugins" style="display:block; margin:0 auto; max-width:700px; width:100%; height:auto;">
+</p>
+
 After that the plugin will appear in the Plugins menu:
-![Plugins menu](documentation_images/image2.png)
+
+<p style="text-align:center;">
+  <img src="documentation_images/image2.png" alt="Plugins menu" style="display:block; margin:0 auto; max-width:700px; width:100%; height:auto;">
+</p>
 
 ## Main scene to test the plugin
 I have used the scene (with very few adjustments) taken from this tutorial:
@@ -71,7 +78,12 @@ The .ui file is saved in the MeasurementTool folder after each modification. Thi
 ## Plugin functionality
 
 This is how the plugin shows up in VRED:
-![Plugin in VRED](documentation_images/image3.png)
+
+<p style="text-align:center;">
+  <img src="documentation_images/image3.png" alt="Plugin in VRED" style="display:block; margin:0 auto; max-width:700px; width:100%; height:auto;">
+</p>
+
+
 ### UI mapping → behavior
 
 - `button_stampa_nomi`
