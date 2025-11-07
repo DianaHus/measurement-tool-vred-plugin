@@ -1,6 +1,6 @@
 # Measurement Tool Plugin for VRED
 This is a Qt Pyside6 plugin for VRED 17.3 application.
-The only purpose of this plugin is to learn how to create (and make them work) plugins for VRED application using PySide6 and get familiar with VRED API.
+The only purpose of this plugin is to learn how to create (and make to work) plugins for VRED application using PySide6 and get familiar with VRED API.
 
 ## Where to place the plugin and how to load/reload it
 
