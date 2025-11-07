@@ -10,13 +10,13 @@ The folder must be placed in the VRED plugins directory, usually located at:
 If any modification is made to the code, the plugin must be reloaded in VRED for the changes to take effect. To do that:
 
 <p style="text-align:center;">
-  <img src="documentation_images/image.png" alt="Reload Script Plugins" style="display:block; margin:0 auto; max-width:700px; width:100%; height:auto;">
+  <img src="documentation_images/image.png" alt="Reload Script Plugins" style="display:block; margin:0 auto; width:300px; height:auto;">
 </p>
 
 After that the plugin will appear in the Plugins menu:
 
 <p style="text-align:center;">
-  <img src="documentation_images/image2.png" alt="Plugins menu" style="display:block; margin:0 auto; max-width:700px; width:100%; height:auto;">
+  <img src="documentation_images/image2.png" alt="Plugins menu" style="display:block; margin:0 auto; width:auto; height:300px;">
 </p>
 
 ## Main scene to test the plugin
@@ -80,7 +80,7 @@ The .ui file is saved in the MeasurementTool folder after each modification. Thi
 This is how the plugin shows up in VRED:
 
 <p style="text-align:center;">
-  <img src="documentation_images/image3.png" alt="Plugin in VRED" style="display:block; margin:0 auto; max-width:700px; width:100%; height:auto;">
+  <img src="documentation_images/image3.png" alt="Plugin in VRED" style="display:block; margin:0 auto; width:300px; height:auto;">
 </p>
 
 
