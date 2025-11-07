@@ -80,7 +80,7 @@ The .ui file is saved in the MeasurementTool folder after each modification. Thi
 This is how the plugin shows up in VRED:
 
 <p style="text-align:center;">
-  <img src="documentation_images/image3.png" alt="Plugin in VRED" style="display:block; margin:0 auto; width:300px; height:auto;">
+  <img src="documentation_images/image3.png" alt="Plugin in VRED" style="display:block; margin:0 auto; width:600px; height:auto;">
 </p>
 
 
